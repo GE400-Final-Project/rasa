@@ -2,3 +2,4 @@
 ![rasaachitecture-660x419](https://github.com/GE400-Final-Project/E-KHAS/assets/32942794/a40c4341-b97a-4148-9042-97b69e16b102)
 ![3jcj60p7sltmblkov9q1](https://github.com/GE400-Final-Project/E-KHAS/assets/32942794/237f6139-9be1-49ee-8fae-1c0d089163a8)
 ![1_wSYFNkHBQn71mqua03crAg](https://github.com/GE400-Final-Project/E-KHAS/assets/32942794/e71acd4c-c1dd-4acf-a0d7-5a5f93ebe2b5)
+![en-logo_mühendislik-copy-2](https://github.com/GE400-Final-Project/RASA/assets/32942794/8d004173-82a8-491b-b0dd-d638bad97ef0)
