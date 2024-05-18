@@ -6,7 +6,7 @@ pipeline {
             steps {     
 		    
 		   sh '''
-		       cd /home/rasa/rasa-app-data
+		       cd /home/rasa/rasa
         	   #git reset --hard HEAD^
 	           git pull https://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@github.com/GE400-Final-Project/rasa.git main
         	   '''      
