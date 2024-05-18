@@ -22,7 +22,7 @@ services:
     - "5055:5055"
     volumes:
     - ./rasa-app-data/endpoints.yml:/app/endpoints.yml
-    - "/home/rasa/rasa-app-data/actions:/app/actions"
+    - "/home/rasa/rasa/rasa-app-data/actions:/app/actions"
 
 networks:
   khas:
