@@ -16,8 +16,8 @@ pipeline {
         stage('Deploy') {
             steps {                                     
                     sh "pwd"                                 
-         	       sh "docker-compose -f /home/rasa/rasa/rasa-app-data/docker-compose.yml down"
-                    sh "docker-compose -f /home/rasa/rasa/rasa-app-data/docker-compose.yml up -d"			
+         	       sh "docker-compose -f /home/rasa/rasa/docker-compose.yml down"
+                    sh "docker-compose -f /home/rasa/rasa/docker-compose.yml up -d"			
                     sh "chmod -R 1000 /usr/local/bin"
             }
         }
