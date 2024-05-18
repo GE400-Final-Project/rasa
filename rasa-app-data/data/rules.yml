@@ -1,0 +1,37 @@
+version: "3.1"
+
+rules:
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - rule: Say greet anytime the user says greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Say faq anytime when user asks for
+    steps:
+      - intent: faq
+      - action: utter_answerfaq
+
+  - rule: Say you're welcome anytime when user asks for
+    steps:
+      - intent: express_gratitude
+      - action: utter_express_gratitude
+
+  - rule: Say outofscope when user tells outofscope
+    steps:
+      - intent: outofscope
+      - action: utter_outofscope
+
+  - rule: Dont tolerate bad words
+    steps:
+      - intent: bad_words
+      - action: utter_badwords

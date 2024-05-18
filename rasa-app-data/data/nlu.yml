@@ -1,0 +1,2064 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - heyo
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+      - evening
+      - afternoon
+      - morning
+      - gnight
+      - night
+      - well met!
+      - greetings
+      - hi, how's it going?
+      - hey, how's everything?
+      - hi, nice to meet you
+      - hello, good to see you
+      - hey, what's new?
+      - hi, how's your day?
+      - hello, how have you been?
+      - what's up?
+      - howdy
+      - hi there
+      - hey there
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - what's up
+      - what's up bro
+      - what's up girl
+      - goodmorning
+      - goodevening
+      - good afternoon
+      - Hello
+      - hola
+      - bonjour
+      - Bom dia
+      - wesh bien ou quoi
+      - wesh
+      - wesh le s
+      - wesh le sang
+      - cousin!
+      - Bonjour
+      - Good Morning
+      - Good morning
+      - Good mourning
+      - Guten Morgen
+      - HELLO
+      - HEY
+      - HEllo
+      - HI
+      - Hallo
+      - Hei
+      - Hellllooooooo
+      - Hello
+      - Hello Bot
+      - Hello!
+      - Hey
+      - Hey bot
+      - Heya
+      - Heylo
+      - Hi
+      - Hi bot
+      - Hi man
+      - Hi there
+      - Hi!
+      - Hi'
+      - Hi,
+      - Hi, bot
+      - Hieee
+      - Hieeeeeeeeeeeee
+      - Hola
+      - I said, helllllloooooO!!!!
+      - Well hello there ;)
+      - What is up?
+      - Whats up
+      - Whats up my bot
+      - Whats up?
+      - ayyyy whaddup
+      - bonjour
+      - ey boss
+      - good evening
+      - good moring
+      - good morning
+      - greet
+      - greetings
+      - hai
+      - hallo
+      - halloo
+      - halloooo
+      - halo
+      - heeey
+      - heelio
+      - hell9o
+      - hellio
+      - hello
+      - hello everybody
+      - hello friend
+      - hello hi
+      - hello is anybody there
+      - hello it is me again
+      - hello robot
+      - hello sweatheart
+      - hello sweet boy
+      - hello there
+      - hello world
+      - hello?
+      - hello]
+      - hellooo
+      - helloooo
+      - helo
+      - hey
+      - hey bot
+      - hey bot!
+      - hey dude
+      - hey hey
+      - hey let's talk
+      - hey rasa
+      - hey ther
+      - hey there
+      - hey there boy
+      - hey there..
+      - hey, let's talk
+      - heya
+      - heyho
+      - heyo
+      - hhola
+      - hi
+      - hi !
+      - hi Mister
+      - hi again
+      - hi can you speak ?
+      - hi folks
+      - hi friend
+      - hi friends
+      - hi hi
+      - hi pal!
+      - hi there
+      - hi there it's me
+      - hi!
+      - hi..........
+      - hi?
+      - hieee
+      - hii
+      - hiihihi
+      - hiii
+      - hlo
+      - hola
+      - howdy
+      - jojojo
+      - jop
+      - konichiwa
+      - merhaba
+      - salam
+      - salem
+      - selem
+      - ola
+      - rasa hello
+      - salut
+      - sup
+      - wasssup
+      - wasssup!
+      - what up
+      - whats popping
+      - whats up
+      - yo
+      - yoo
+      - ssup?
+      - helleo
+      - ahoy
+      - Ahoy
+      - Ahoy!
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+      - cya
+      - see you around
+      - catch you later
+      - take it easy
+      - peace out
+      - goodbye for now
+      - have a great day
+      - see you tomorrow
+      - see you next time
+      - goodbye, it was nice talking to you
+      - bye, take care
+      - take care
+      - farewell
+      - have a nice day
+      - have a good one
+      - talk to you later
+      - until next time
+      - ok Bye
+      - ok bye
+      - ok, bye
+      - ok.bye
+      - see u later
+      - see ya
+      - see you
+      - see you . bye
+      - take care
+      - then bye
+      - tlak to you later
+      - Exit
+      - Close this talk
+      - byr
+
+  - intent: affirm
+    examples: |
+      - yes
+      - yeah
+      - yep
+      - absolutely
+      - indeed
+      - for sure
+      - definitely
+      - sure thing
+      - of course
+      - certainly
+      - you bet
+      - no doubt
+      - affirmative
+      - that's right
+      - absolutely right
+      - absolutely yes
+      - I agree
+      - that sounds good
+      - I confirm
+      - Oi mate
+
+  - intent: express_gratitude
+    examples: |
+      - thanks
+      - thank you
+      - ty
+      - thank
+      - i am greatful
+      - am greatful
+      - i'm greatful
+      - i am so greatful
+      - am so greatful
+      - i'm so greatful
+      - greatful
+      - you're the best
+      - you da best
+      - you are the best
+      - thanks yo
+      - tk
+      - tks
+      - Cool. Thanks
+      - Great, thanks
+      - Thank you
+      - Thank you Sara
+      - Thank you so much
+      - Thank's!
+      - Thanks
+      - Thanks bot
+      - Thanks for that
+      - Thanks!
+      - amazing, thanks
+      - cheers
+      - cheers bro
+      - cool thank you
+      - cool thanks
+      - cool, thanks
+      - danke
+      - great thanks
+      - ok thanks
+      - ok thanks sara
+      - ok thanks!
+      - perfect thank you
+      - thank u
+      - thank you
+      - thank you anyways
+      - thanks
+      - thanks a bunch for everything
+      - thanks a lot
+      - thanks for the help
+      - thanks this is great news
+      - thanks you
+      - thanks!
+      - thankyou
+      - thnks
+      - thx
+      - yes thanks
+      - thanks for your information
+      - thanks f
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+      - not at all
+      - nope
+      - nop
+      - nah
+      - I disagree
+      - I'm not sure about that
+      - that's not right
+      - that's not correct
+      - I beg to differ
+      - not at all
+      - definitely not
+      - I'm afraid not
+      - sorry, but no
+      - I would say no    
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+      - i don't want
+      - i don't want to
+      - nah
+      - nahh
+      - nein
+      - nop
+      - nopp
+      - I don't want to
+      - I don't want to give it to you
+      - I don't want to say
+      - I dont want to tell
+      - I'm not giving you my email address
+      - I'm not going to give it to you
+      - NEIN
+      - NO
+      - NO DON"T WANT THIS!
+      - Nah
+      - Neither
+      - Never
+      - Nevermind
+      - No
+      - No thank you
+      - No, not really.
+      - No, thank you
+      - No.
+      - Nopes
+      - Not really
+      - absolutely not
+      - decline
+      - definitely not
+      - deny
+      - i decline
+      - i don not like this
+      - i don't think so
+      - i don't want either of those
+      - i don't want to
+      - i don't want to give you my email
+      - i dont want to
+      - i dont want to accept :P lol
+      - i guess it means - no
+      - i'm afraid not
+      - i'm not sure
+      - it is going pretty badly
+      - it sucks
+      - it sux
+      - na
+      - nah
+      - nah I'm good
+      - nah not for me
+      - nah, first time
+      - nah, i'm good
+      - nehi
+      - nein
+      - neither
+      - never
+      - never mind
+      - no :(
+      - no I dont want
+      - no I haven't decided yet if I want to sign up
+      - no and no again
+      - no bots at all
+      - no go
+      - no i can't
+      - no i don't accept
+      - no i dont want to
+      - no i dont want to accept :P lol
+      - no i won't
+      - no ma'am
+      - no sir
+      - no sorry
+      - no thank s
+      - no thank you
+      - no thanks
+      - no way
+      - no you did it wrong
+      - no!!!!
+      - no, i hate it
+      - no, my frst time
+      - no, thank you
+      - no, thanks
+      - no, thankyou
+      - no. u r idiot
+      - non
+      - noooooooooo
+      - noooooooooooooooooooooooooooooooooooooooo
+      - nop
+      - nope
+      - nope!
+      - nope. i am good
+      - not going well at all
+      - not really
+      - not right now
+      - not yet
+      - nö
+      - sorry not right now
+      - still dont want to tell
+      - thanks but no thanks
+      - this sucks
+      - very bad
+      - I do not need help
+      - no stop
+      - stop it, i do not care!!!
+      - none of them
+      - I don't agree
+
+  - intent: apology
+    examples: |
+      - I am sorry
+      - Apologies
+      - My apologies
+      - Sorry about that
+      - I'm sorry for the inconvenience
+      - I regret that
+      - I apologize for the confusion
+      - Please accept my apologies
+      - I'm really sorry
+      - I'm sorry if there was a misunderstanding
+      - I'm sorry for any trouble caused
+      - I apologize for the mistake
+      - Sorry for the inconvenience
+      - I apologize for any inconvenience caused
+      - I'm sorry for the inconvenience
+
+  - intent: good_feedback
+    examples: |
+      - it helped me
+      - helped out 
+      - it works
+      - nice suggestions
+      - i dont need any more help
+      - no help required
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+      - This is what i was looking for
+      - Sounds good
+      - I like this product
+      - I might want to buy this
+      - Nice customer services
+      - Nice chatbot
+      - Good advices
+      - Nice advices
+      - Couldn't be better!
+      - Thrilled
+      - Remarkable
+      - Such a delight
+      - Very helpful suggestions
+      - Exceptional
+      - Totally pleased
+      - Absolutely fantastic
+      - Exactly what I needed
+      - I'm impressed
+      - Impressive service
+      - Nice one
+      - good
+      - really good
+      - fine
+      - of high quality
+      - high quality
+      - of high standard
+      - high standard
+      - quality
+      - superior
+      - satisfactory
+      - acceptable
+      - adequate
+      - right-minded
+      - examplary
+      - clean
+      - ethical
+      - upstanding
+      - outstanding
+      - awesome
+      - great
+      - up to standard
+      - in order
+      - up to the mark
+      - it's good
+      - it's really good
+      - it's fine
+      - it's of high quality
+      - it's high quality
+      - it's of high standard
+      - it's high standard
+      - it's quality
+      - it's superior
+      - it's satisfactory
+      - it's acceptable
+      - it's adequate
+      - it's right-minded
+      - it's examplary
+      - it's clean
+      - it's ethical
+      - it's upstanding
+      - it's outstanding
+      - it's awesome
+      - it's great
+      - it's up to standard
+      - it's in order
+      - it's up to the mark
+      - you are good
+      - you are really good
+      - you are fine
+      - you are of high quality
+      - you are high quality
+      - you are of high standard
+      - you are high standard
+      - you are quality
+      - you are superior
+      - you are satisfactory
+      - you are acceptable
+      - you are adequate
+      - you are right-minded
+      - you are examplary
+      - you are clean
+      - you are ethical
+      - you are upstanding
+      - you are outstanding
+      - you are awesome
+      - you are great
+      - you are up to standard
+      - you are in order
+      - you are up to the mark
+      - you're good
+      - you're really good
+      - you're fine
+      - you're of high quality
+      - you're high quality
+      - you're of high standard
+      - you're high standard
+      - you're quality
+      - you're superior
+      - you're satisfactory
+      - you're acceptable
+      - you're adequate
+      - you're right-minded
+      - you're examplary
+      - you're clean
+      - you're ethical
+      - you're upstanding
+      - you're outstanding
+      - you're awesome
+      - you're great
+      - you're up to standard
+      - you're in order
+      - you're up to the mark
+
+  - intent: bad_feedback
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+      - Really bad
+      - Utterly let down
+      - I don't want this
+      - I am not satisfied with this product
+      - I am looking for something else
+      - This does not match with my criteria
+      - I dont want to buy this
+      - It's irrelevant to what you're suggesting
+      - I am looking for another product
+      - I am not satisfied
+      - What is this abhorrance
+      - Terrible experience
+      - Disappointing
+      - This product is not meeting my expectations
+      - I'm not interested in buying this
+      - I'm seeking another product
+      - I need something different
+      - I'm thoroughly dissatisfied
+      - It didnt help
+      - not helpful
+      - didnt help me
+      - no it did not help
+      - I need more help
+      - it didnt help me out
+      - I need more help
+      - extra help
+      - more  help please
+      - help me please
+      - help me out
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+      - Is this an AI?
+      - are you an AI?
+      - I want to talk to a real person
+      - prove you're not a robot
+      - can you pass the Turing test?
+      - are you automated?
+      - are you a machine?
+      - are you programmed?
+      - are you a computer?
+      - are you real?
+      - are you alive?
+      - are you sentient?
+      - can you think?
+      - are you just a program?
+      - are you AI-powered?
+      - are you automated or human?
+      - are you a bot?
+      - are you a human?
+      - am i talking to a bot?
+      - am i talking to a human?
+      - bot?
+      - human?
+      - who are you?
+      - who am i talking to?
+      - who you are?
+      - who you're?
+      - you are?
+      - you're?
+      - i don't know you
+      - do i know you?
+      - what do you want?
+      - you want?
+      - why are you talking to me?
+      - why you talking to me?
+      - Ar you a bot ?
+      - Are you a bot
+      - Are you a chat bot?
+      - Are you the bot?
+      - Hi there, are you the bot?
+      - are you a BOT
+      - are you a Skynet ?
+      - are you a bot
+      - are you a bot ?
+      - are you a bot?
+      - are you a chatbot
+      - are you a rasa bot?
+      - are you a real bot?
+      - are you a robot
+      - are you ai
+      - are you artificial
+      - are you artificial intelligence
+      - are you bot
+      - are you bot?
+      - are you rasa bot?
+      - are you real
+      - are you real lol
+      - are you really a bot
+      - are you robot
+      - are you sure that you're a bot?
+      - bot?
+      - cuz you are a bot
+      - i guess you are a chatbot
+      - oh are you chatbot?
+      - tell me, are you a bot?
+      - what are you, a bot?
+      - you are a robot
+      - you are ai
+      - you are chatbot
+      - you're a bot
+      - you robo
+      - real bot then?
+      - are you really a bbot?
+      - hey are you human
+      - are u human
+      - r u a human
+      - are you real human?
+      - you are a human
+      - Rara, are you a human?
+      - you are bot or human?
+      - are you human
+      - ok, i know i confused you there being a human! :)
+      - you are human or bot
+      - Are you human?
+      - are you a human ?
+      - Are you human ?
+      - Are you a human being?
+      - sara, are you a robot or human?
+      - r u real?
+      - are you a real person
+      - are u a real person?
+      - Are you a real person?
+      - are you a real person?
+      - are you real person or chat bot?
+      - So I'm here Today to ask one very simple question, what are you ?
+      - you sound like a real human
+      - wow you sound like real human
+      - are you human ?
+
+  - intent: additionalHelp
+    examples: |
+      - i need more help
+      - need more help
+      - more help
+      - additional help
+      - further help
+      - i need more help please
+      - need more help please
+      - more help please
+      - additional help please
+      - further help please
+      - i need more help pls
+      - need more help pls
+      - more help pls
+      - additional help pls
+      - further help pls
+      - i want more help
+      - i want additional help
+      - i want further help
+      - i want some more help
+      - i want some additional help
+      - i want some further help
+      - i want more help please
+      - i want additional help please
+      - i want further help please
+      - i want more help pls
+      - i want additional help pls
+      - i want further help pls
+      - i need something else
+      - i need smtg else
+      - i want something else
+      - i want smtg else
+      - something else
+      - smtg else
+
+  - intent: noMoreHelp
+    examples: |
+      - i don't need help anymore
+      - i don't need help
+      - i don't need further help
+      - i don't need anymore help
+      - i don't additional help
+      - no more help
+      - no additional help
+      - no further help
+      - no help anymore
+      - no further help needed
+      - no additional help needed
+      - no more help needed
+
+  - intent: faq
+    examples: |
+      - i (want to) or (wanna) learn about this site
+      - i (want to) or (wanna) get information about this site
+      - i (want to) or (wanna) know what this site is for
+      - inform me about ekhas
+      - inform me about the firm
+      - inform me about the company
+      - inform me about the shop
+      - inform me about the store
+      - inform me about the local store
+      - inform me about the convenience store
+      - inform me about the boutique
+      - inform me about the website
+      - inform me about the e-commerce website
+      - inform me about eCommerce's website
+      - inform me about the application
+      - inform me about the app
+      - inform me about the commerce
+      - info about the firm
+      - info about the company
+      - info about the shop
+      - info about the store
+      - info about the local store
+      - info about the convenience store
+      - info about the boutique
+      - info about the website
+      - info about the e-commerce website
+      - info about the application
+      - info about the app
+      - info about the commerce
+      - more info
+      - more info about eCommerce
+      - inform company
+      - more information
+      - more info company
+      - about eCommerce
+      - about the firm
+      - what is eCommerce?
+      - what's eCommerce?
+      - what eCommerce?
+      - eCommerce?
+      - what's this firm about?
+      - what is this firm about?
+      - general information about eCommerce
+      - general information about the firm
+      - general information about the company
+      - general information about the shop
+      - general information about the store
+      - general information about the local store
+      - general information about the convenience store
+      - general information about the boutique
+      - general information about the website
+      - general information about the e-commerce website
+      - general information about the application
+      - general information about the app
+      - general information about the commerce
+      - about eCommerce in general
+      - about the firm in general
+      - about the company in general
+      - about the shop in general
+      - about the store in general
+      - about the local storen in general
+      - about the convenience store in general
+      - about the boutique in general
+      - about the website in general
+      - about the e-commerce website in general
+      - about the application in general
+      - about the app in general
+      - about the commerce in general
+      - general information
+      - who created this eCommerce?
+      - who created the firm?
+      - who created the company?
+      - who created the shop?
+      - who created the store?
+      - who created the local store?
+      - who created the convenience store?
+      - who created the boutique?
+      - who created the website?
+      - who created the e-commerce website?
+      - who created the application?
+      - who created the app?
+      - who created the commerce?
+      - who is the creator of eCommerce?
+      - who is the founder?
+      - who is the creator?
+      - who is the designer?
+      - who is the inventor?
+      - who is the maker?
+      - who is the author?
+      - who is the originator?
+      - eCommerce creator?
+      - creator?
+      - about eCommerce creator?
+      - more information about eCommerce creator?
+      - inform me about eCommerce creator
+      - who created eCommerce?
+      - who is the creator of eCommerce?
+      - eCommerce creator?
+      - creator?
+      - about eCommerce creator?
+      - more information about eCommerce creator?
+      - inform me about eCommerce creators
+
+  - intent: phone
+    examples: |
+      - I am looking for a mobile phone
+      - I want to buy a smartphone
+      - Can you recommend a good cellphone?
+      - I'm in the market for a new mobile device
+      - Do you have any suggestions for a phone?
+      - Could you help me find a suitable mobile phone?
+      - I'm interested in purchasing a new handset
+      - Looking to upgrade my current phone
+      - Seeking advice on choosing a mobile device
+      - Need assistance selecting a new phone
+      - Can you assist me with choosing a phone model?
+      - Interested in exploring smartphone options
+      - Looking to invest in a new cellular device
+      - Hunting for a reliable mobile phone
+      - Exploring mobile phone choices
+      - Researching the latest cellphone models
+      - Hoping to find a great mobile phone deal
+      - Considering purchasing a smartphone
+      - Exploring mobile phone features
+      - Want to buy a new cell
+      - Searching for a new phone
+      - What is the screen resolution of this phone?
+      - What is the battery life?
+      - How many megapixels is its camera?
+      - Is there fast charging support?
+      - What is the processor brand and model?
+      - How many GB or TB of internal storage?
+      - How much does the phone weigh?
+      - How many inches is the screen size?
+      - What is the operating system and which version?
+      - What is the phone's water and dust resistance rating?
+      - Is there a fingerprint reader?
+      - Is face recognition feature available?
+      - Is there wireless charging support?
+      - Does it have NFC feature?
+      - What is the RAM capacity of the phone?
+      - What is the screen technology?
+      - How is the speaker and sound quality?
+      - What are the camera features of the phone?
+      - Does it have optical image stabilisation?
+      - How does the night shooting mode perform?
+      - How much of the phone's screen has a screen-to-case ratio?
+      - Does the phone have memory card support?
+      - How long is update support provided?
+      - Does the phone have 5G support?
+      - How is the Wi-Fi signal strength?
+      - How is the phone's GPS performance?
+      - How is the game performance?
+      - What material is the screen made of?
+      - Can the screen brightness of the phone be adjusted?
+      - Can the phone's battery be replaced?
+      - What is the warranty period of the product?
+      - What materials are used in the design of the phone?
+      - What is the breakage resistance of the screen?
+      - How often are security updates provided for the phone?
+      - Is there dual SIM card support?
+      - What is the sound recording quality of the phone?
+      - What is the radiation level of the phone?
+      - Does the screen have HDR support?
+      - How is the scratch resistance of the phone screen?
+      - What are the features that make the phone run fast and smoothly?
+      - What is the expected life expectancy of the phone?
+      - How is the phone's hardware and software compatibility?
+      - Does the phone have the ability to charge in a short time?
+      - How is the phone held in the hand?
+      - Can the vibration power of the phone be adjusted?
+      - How is the screen of the phone suitable for night use?
+      - How is the application performance of the phone?
+      - Can the user interface of the phone be customised?
+      - How is the readability of the phone's screen in sunlight?
+      - What do you think about the comparability of the phone with upcoming models?
+
+  - intent: tablet
+    examples: |
+      - I need a apple ipad tablet
+      - What is the screen size of this tablet?
+      - What is the screen resolution?
+      - What is the operating system and which version?
+      - How many GB of RAM does the tablet have?
+      - What is the internal storage space?
+      - Is there external storage support?
+      - How long is the battery life?
+      - Is fast charging support available?
+      - How is the touch sensitivity of the screen?
+      - How many megapixels is the tablet camera?
+      - What are the rear camera and front camera features?
+      - What is the video playback time from the tablet?
+      - How is the speaker and sound quality?
+      - How are the tablet Wi-Fi and Bluetooth connections?
+      - How is the screen brightness and adjustability?
+      - What is the type and technology of the screen?
+      - Are there screen protection features such as Gorilla Glass?
+      - How much is the tablet weight?
+      - What is the design material?
+      - What are the tablet security features?
+      - Is there a fingerprint reader or face recognition feature?
+      - How is the tablet performance? (Processor, graphics unit)
+      - How is the game performance?
+      - What is the experience of watching and listening to multimedia content from the tablet?
+      - How is the screen suitable for night use?
+      - How is the readability of the screen in sunlight?
+      - Is the tablet size suitable for carrying and using?
+      - Is the tablet compatible with accessories such as keyboard or pen?
+      - Can the tablet battery be replaced?
+      - How long is update support provided?
+      - Does the tablet have data connection options (LTE, 5G)?
+      - Is the tablet screen resistant to scratches and impacts?
+      - Is the tablet water and dust resistant?
+      - Does the tablet have dual SIM card support?
+      - What is the variety and reliability of the application store on the tablet?
+      - How is the performance of running a specific application or game from the tablet?
+      - Is there a heating problem during tablet use?
+      - How is the touch response of the screen on the tablet?
+      - How is the GPS performance on the tablet?
+      - Is it suitable for taking documents or notes from the tablet?
+      - What are the data backup and synchronisation options on the tablet?
+      - How is software security on the tablet ensured?
+      - How is the performance of running a specific application or game from the tablet?
+      - What are the features that prevent excessive battery drain during tablet use?
+      - Is the tablet screen optimised to reduce eye strain?
+      - How to transfer and share files from the tablet?
+      - What is the experience of video conferencing from the tablet?
+      - Is there a multitasking feature on the tablet screen?
+      - Does tablet performance degrade after a certain period of use?
+      - What is the experience of using the voice assistant from the tablet?
+
+  - intent: tv
+    examples: |
+      - I am looking for a new television
+      - Can you recommend a good TV?
+      - I want to buy a television
+      - Do you have any suggestions for a TV?
+      - Could you help me find a suitable television?
+      - I'm interested in purchasing a new TV
+      - Looking to upgrade my current television
+      - Seeking advice on choosing a television
+      - Need assistance selecting a new TV
+      - Can you assist me with choosing a television model?
+      - Interested in exploring TV options
+      - Looking to invest in a new television
+      - Hunting for a reliable TV
+      - Exploring television choices
+      - Researching the latest TV models
+      - Hoping to find a great TV deal
+      - Considering purchasing a new television
+      - Exploring TV features
+      - Want to buy a new TV
+      - Searching for a new television
+      - What is the screen size of the television?
+      - Is the screen type LED, OLED or QLED?
+      - Is the resolution 4K, 8K or Full HD?
+      - Does it support HDR, which HDR formats does it support?
+      - How many Hz is the refresh rate?
+      - What is the viewing angle width?
+      - What are the smart TV features?
+      - Which operating system does it use?
+      - Is there built-in Wi-Fi?
+      - Is Bluetooth connection available?
+      - Which applications are installed (Netflix, YouTube, etc.)?
+      - What are the remote control features, is there voice command support?
+      - How many USB ports and which formats does it support?
+      - How many HDMI ports and what is the version?
+      - How is the sound system, how much is the wattage and the number of speakers?
+      - How much is the energy consumption of the television?
+      - How thin are the frame dimensions?
+      - Can it be mounted on the wall, are mounting accessories included?
+      - Does it come with legs, how is the leg design?
+      - Are there screen features such as Ambient Mode?
+      - Is there a child lock or parental control?
+      - Is teletext support available?
+      - Does it support digital broadcasts (DVB-T2/C/S2)?
+      - Does it have 3D display feature, are glasses included?
+      - How much does the television weigh?
+      - Does it have internal storage capacity, how much?
+      - Is there an optical port for audio output?
+      - What are the screen mirroring or casting features?
+      - Does the TV support AR or VR technologies?
+      - How long is the warranty period and what does it cover?
+      - How is the technical service and customer support?
+      - What is the energy class for this  tv?
+      - What is the battery life (for remote control)?
+      - Are there screen protection features (image burn-in etc.)?
+      - Is there a game mode, how much is the input lag?
+      - Is there dynamic range control (local dimming)?
+      - Is there voice assistant integration (Google Assistant, Alexa, etc.)?
+      - What are the timer and sleep mode features?
+      - Does it offer multi-language support?
+      - Does it have picture-in-picture (PIP) feature?
+      - Which video and audio formats does it support?
+      - What are the automatic update features?
+      - Is there a second screen or screen sharing?
+      - What is the resale value of the TV?
+      - What is included in the package (remote control, cables, booklet, etc.)?
+
+  - intent: outofscope
+    examples: |
+      - 1+1=?
+      - i am asking you an out of scope question
+      - 4 + 2 = ?
+      - 4 + 2
+      - 1 + 1 = ?
+      - 1 + 1
+      - can i die
+      - can YouTube talk?
+      - can you call me back ?
+      - can you give me your datacenter's password
+      - can you give me your datacenter's password?
+      - can you please send me an uber
+      - do i have to accept?
+      - have we met before?
+      - i already told you! i'm a shitmuncher
+      - i am User
+      - i am an opioid addic
+      - i am an opioid addict
+      - i am trying to build one, and did some research before, but I have not do hand-on work yet
+      - i ned a GP in 94301
+      - i need a GP in 94301
+      - i need a girl friend!
+      - i wan to buy a plane
+      - i wanna marry you
+      - i want a new laptop
+      - i want book a hotel
+      - i want to die
+      - i want to use pipe
+      - i will check
+      - i'm a shitmuncher
+      - is today saturday?
+      - NLW
+      - nice name
+      - now?
+      - recharge
+      - the Try it out is not working
+      - the weather is good
+      - today
+      - try it out broken
+      - what day is it today?
+      - what do you prefer?
+      - what is todays date
+      - what is your hobbies?
+      - what's 1 + 1?
+      - what's do YouTube do
+      - what's your backend system?
+      - Who are your customers
+      - Why don’t you answer?
+      - won't you ask me how I am?
+      - you'r blue.
+      - a tamed mouse will arrive at your doorstep in the next couple of days
+      - again?
+      - are the newsletter worth the subscription?
+      - are u facebook
+      - are u, facebook?
+      - are you single?
+      - are you dev?
+      - are you russian?
+      - are you sick
+      - are you vegan
+      - better than you
+      - book a ticket
+      - but I just told you that :(
+      - call me father
+      - can you cheer me up
+      - can you give me a cup of coffee
+      - can you help me with the docs?
+      - can you help me with your docs
+      - can you help me with your docs?
+      - can you learn from our conversation?
+      - can you speak about politic ?
+      - can you understand ?
+      - cannot see
+      - chgfhgh
+      - colder
+      - common, just try
+      - connect to alexa
+      - cr
+      - custom service
+      - did i break you
+      - do you believe in god?
+      - do you have a phone number?
+      - do you have your photo?
+      - do you know me
+      - do you know ras
+      - do you like football
+      - do you like movies
+      - do you sell vacuum robots?
+      - do you want to marry me?
+      - docs
+      - doctor
+      - everything
+      - genocide
+      - get me a club mate
+      - give me a girl friend
+      - go back
+      - google?
+      - great, I'd like to buy a house
+      - hang on let me find it
+      - help with my life
+      - hey little mama let em whisper in your ear
+      - how about NYC
+      - how are the kids
+      - how can i get them?
+      - how can i test this
+      - how come you say ok ?
+      - how do you learn
+      - how many lines of codes
+      - how much is 10 + 89 ?
+      - how much is 10 + 89
+      - how to get rasa studio
+      - how to go to newyork ?
+      - i am hungry, what should i do?
+      - i am not a developer but need this for business
+      - i am qq
+      - i can't deal with _your_ request
+      - i hope you will be better
+      - i immediately need help with implementing the coolest bot you can imagine
+      - i m looking for job
+      - i told you already
+      - i wanna party
+      - i want good flycam
+      - i want more of you in my life!
+      - i want to book a hotel
+      - i want to buy a roomba for my grandson
+      - i want to find new friends
+      - i want to find out what you can build with rasa
+      - i want to fly
+      - i want to know current situtation in pakistan
+      - i want to see your happy customers
+      - i will tame a mouse for you
+      - is it a wasteland full of broken robot parts?
+      - is it allow to
+      - is rasa a studio?
+      - is rasa any good
+      - is that any of your business
+      - isn't the newsletter just spam?
+      - it's a pity
+      - license
+      - ljljl
+      - mascot means?
+      - more
+      - mountain
+      - my name k
+      - oh my god, not again!
+      - ok one then
+      - on wiche nlp based system are you build?
+      - only that?
+      - personal or work?
+      - please play music
+      - really? you're so touchy?
+      - refresh
+      - region with no. of records
+      - search wikipedia
+      - shitmuncher
+      - show me a picture of a chicken
+      - silly bot
+      - sing me a song
+      - some thing else
+      - someone call the police i think the bot died
+      - sorry, i cannot rephrase
+      - tell me about yourself
+      - tell me more about next best action
+      - that doesn't sound like a joke
+      - the one that is better than you
+      - tricked ya
+      - turn off my stove
+      - umm
+      - wait a bit i am still reading
+      - what about wheather
+      - what are you doing now?
+      - what are your uses for universities
+      - what did you eat for lunch?
+      - what does your soul feel my friend
+      - what doing
+      - what else?
+      - what films do you like
+      - what is a discourse?
+      - what is a mascot
+      - what is adlingo
+      - what is evolution ?
+      - what is google rcs
+      - what is machine learning
+      - what is nice?
+      - what is the capital of delhi
+      - what is the capital of india
+      - what is the current petrol price
+      - what is the day ?
+      - what is the real use case where we can use this one
+      - what is your address?
+      - what is your purpose
+      - what lnu mean?
+      - what the latest news ?
+      - what you ate today?
+      - what's 5 + 5
+      - what's a newsletter?
+      - what's gingerale
+      - what's your wife doing this weekend
+      - what?
+      - whats that
+      - whats the sign
+      - when is the next train is coming?
+      - where do i get install files for mac?
+      - where is Oslo?
+      - where is mexico?
+      - wheres the party?
+      - which city are you talking about?
+      - which is the LNU asynchronism ?
+      - which kind
+      - who are they?
+      - who is the MD of samsung bangalore ?
+      - who is the president of india ?
+      - who is your favourite robot?
+      - who let the dogs out
+      - who's Bill Gates?
+      - whta you think about gdpr?
+      - why do you need that?
+      - will u kill me
+      - will u kill me?
+      - winter is already leaving
+      - with you recommend me?
+      - yeah, my dog was drinking a couple of litres of water per day and tried drinking the swimming pool
+      - you already have that
+      - you can learn how to make a coffe
+      - you have children?
+      - you have job opening
+      - you lock sweety
+      - you should learn to count
+      - you will know it from the single red rose it carries between its teeth
+      - I am learning python
+      - CALL THE POLICE
+      - tertyryutyi
+      - wsdrcftvgybhnj
+      - why sky is blue?
+      - what kind of bird are you?
+      - contextua
+      - contextual
+      - talk to me about voulette
+      - voulette voulette
+      - do you have a demo?
+      - cars
+      - please voulette
+      - out of scope question.
+      - i need money
+      - no, i need cash, money! do you have it ?
+      - the beatles
+      - Hi i want to go palghar
+      - I want to go palghar
+      - gsaf
+      - expert of rasa
+      - i want play ball
+      - flight catch up
+      - coronavirus
+      - have you heard of corona?
+      - where do i type in commandy
+      - where to type in commands
+      - kiss me
+      - you have to
+      - sfasd
+      - asdkjasdhjkasd
+      - j  bhbhj
+      - eshdtjfjfyk
+      - drhdtjfjfyj
+      - sudo reboot
+      - asdfgasd
+      - asdfgasdas
+
+  - intent: chitchat
+    examples: |
+      - how are you?
+      - are you fine?
+      - you fine?
+      - are you okay?
+      - are you k?
+      - you okay?
+      - you k?
+      - are you ok?
+      - you ok?
+      - you good?
+      - what's up?
+      - what's up boy?
+      - what's up girl?
+      - fine and you?
+      - good and you?
+      - not good and you?
+      - fine you?
+      - good you?
+      - not good you?
+      - you?
+      - and you?
+      - fine and y?
+      - good and y?
+      - not good and y?
+      - fine y?
+      - good y?
+      - not good y?
+      - y?
+      - and y?
+      - yk?
+      - y k?
+      - y ok?
+      - y okay?
+      - Ahoy matey how are you?
+      - Are you ok?
+      - Do you feel good?
+      - Do you have a great day?
+      - HI Sara, what are you up to?
+      - Hi Sara! How are you?
+      - How are You?
+      - How are things?
+      - How are you
+      - How are you men?
+      - How are you today?
+      - How are you?
+      - How was your day?
+      - How you doing?
+      - How's it going
+      - How's it hanging?
+      - How's life treating you friend?
+      - How've you been?
+      - Hows it going
+      - I'm fine and you
+      - Is everything ok?
+      - What's going on?
+      - What's new?
+      - What's up
+      - What's up man
+      - and you
+      - are you alright
+      - are you happy
+      - are you having a good day
+      - are you ok
+      - are you okay
+      - h r u ?
+      - hello, how are you?
+      - hey how are you?
+      - hi how are you?
+      - hi how u doing
+      - hi sara, how are you?
+      - how ?
+      - how are things going
+      - how are things with you?
+      - how are u
+      - how are u?
+      - how are xou
+      - how are you
+      - how are you ?
+      - how are you doing
+      - how are you doing this morning
+      - how are you doing today my sweet friend
+      - how are you doing today?
+      - how are you doing?
+      - how are you feeling
+      - how are you today
+      - how are you'
+      - how are you?
+      - how are you????
+      - how are yuo
+      - how do you do?
+      - how have you been
+      - how is it going
+      - how is your day
+      - how is your day going
+      - how is your evening
+      - how r u
+      - how r u ?
+      - how r u>
+      - how you doing
+      - how you doing?
+      - how's it going?
+      - how's life
+      - how's life been treating you?
+      - how's your day going
+      - howareyou
+      - hw r u?
+      - is everything all right
+      - is everything okay
+      - nah, I'm good - how are you doing?
+      - okay hi how are you?
+      - wassup>
+      - what about your day
+      - what are you up to?
+      - what's good
+      - what's up
+      - what's up sara
+      - what's up?
+      - whatchcha doing
+      - whatchya upto ?
+      - whats goin on
+      - whats new
+      - whatsapp
+      - yow are you
+      - how are you Rasa
+      - Hey Sara, how's it going
+      - are you cool
+      - what is your name?
+      - what's your name?
+      - may I know your name?
+      - what do people call you?
+      - what can i call you?
+      - how can i call you?
+      - you are called?
+      - you're called?
+      - you called?
+      - do you have a name for yourself?
+      - you have a name?
+      - name?
+
+  - intent: desktop_computer
+    examples: |
+      - need a computer
+      - give me a computer
+      - computer i am looking for
+      - hello computer
+      - goodbye computer
+      - I need a gaming computer
+      - gaming desktop computer
+      - gaming pc
+      - gaming desktop
+      - I need a desktop pc
+      - computer with good graphic card
+      - give me a computer suggestion
+      - pc with desktop
+      - conputer?
+      - computer yeah.
+      - compiter
+      - am I looking for a computer?
+      - maybe  I am a computer
+      - suggest me a compter son
+      - I need a computer so bad
+      - I am looking for a new desktop computer
+      - Can you recommend a good desktop PC?
+      - I want to buy a desktop computer
+      - Do you have any suggestions for a desktop computer?
+      - Could you help me find a suitable desktop PC?
+      - I'm interested in purchasing a new desktop computer
+      - Looking to upgrade my current desktop PC
+      - Seeking advice on choosing a desktop computer
+      - Need assistance selecting a new desktop PC
+      - Can you assist me with choosing a desktop computer model?
+      - Interested in exploring desktop computer options
+      - Looking to invest in a new desktop PC
+      - Hunting for a reliable desktop computer
+      - Exploring desktop computer choices
+      - Researching the latest desktop PC models
+      - Hoping to find a great desktop computer deal
+      - Considering purchasing a new desktop computer
+      - Exploring desktop computer features
+      - Want to buy a new desktop PC
+      - Searching for a new desktop computer
+
+  - intent: laptop
+    examples: |
+      - need a laptop
+      - give me a laptop
+      - gaming laptop
+      - laptop for gaming
+      - i am looking for gaming laptop
+      - i am going to play games with laptop
+      - laptop gamer
+      - laptop i am looking for
+      - hello laptop
+      - goodbye laptop
+      - laptoplaptop?
+      - laptop yeah.
+      - compiter
+      - lap and the top
+      - i need a laptop
+      - i'm in need of a laptop
+      - lookin for laptop
+      - am I looking for a laptop?
+      - maybe  I am a laptop
+      - suggest me a laptop son
+      - I need a laptop so bad
+      - I am looking for a new laptop
+      - Can you recommend a good laptop?
+      - I want to buy a laptop
+      - Do you have any suggestions for a laptop?
+      - Could you help me find a suitable laptop?
+      - I'm interested in purchasing a new laptop
+      - Looking to upgrade my current laptop
+      - Seeking advice on choosing a laptop
+      - Need assistance selecting a new laptop
+      - Can you assist me with choosing a laptop model?
+      - Interested in exploring laptop options
+      - Looking to invest in a new laptop
+      - Hunting for a reliable laptop
+      - Exploring laptop choices
+      - Researching the latest laptop models
+      - Hoping to find a great laptop deal
+      - Considering purchasing a new laptop
+      - Exploring laptop features
+      - Want to buy a new laptop
+      - Searching for a new laptop
+
+  - intent: printer
+    examples: |
+      - need a printer
+      - give me a printer
+      - printer i am looking for
+      - hello printer
+      - goodbye printer
+      - printer?
+      - printer yeah.
+      - printer
+      - am I looking for a printer?
+      - maybe  I am a printer
+      - suggest me a printer son
+      - I need a printer so bad
+      - I am looking for a new printer
+      - Can you recommend a good printer?
+      - I want to buy a printer
+      - Do you have any suggestions for a printer?
+      - Could you help me find a suitable printer?
+      - I'm interested in purchasing a new printer
+      - Looking to upgrade my current printer
+      - Seeking advice on choosing a printer
+      - Need assistance selecting a new printer
+      - Can you assist me with choosing a printer model?
+      - Interested in exploring printer options
+      - Looking to invest in a new printer
+      - I need a printer
+      - printer
+      - printing device
+      - laser printer
+      - ink printer
+      - Hunting for a reliable printer
+      - Exploring printer choices
+      - Researching the latest printer models
+      - Hoping to find a great printer deal
+      - Considering purchasing a new printer
+      - Exploring printer features
+      - Want to buy a new printer
+      - Searching for a new printer
+
+  - intent: bad_words
+    examples: |
+      - fuck
+      - fucker
+      - nigga
+      - nigger
+      - motherfucker
+      - asshole
+      - Sonofabitch
+      - Motherfucker
+      - Pussy
+      - Ass
+      - Asshole
+      - Assfuck
+      - Fuckass
+      - Dumbass
+      - Dick
+      - Twat
+      - Skank
+      - Slut
+      - Hoe
+      - Bitch
+      - Cunt
+      - Douche
+      - Douchebag
+      - arse
+      - arsehead
+      - arsehole
+      - ass
+      - asshole
+      - bastard
+      - bitch
+      - bloody
+      - bollocks
+      - brotherfucker
+      - bugger
+      - bullshit
+      - child fucker
+      - Christ on a bike
+      - Christ on a cracker
+      - cock
+      - cocksucker
+      - crap
+      - cunt
+      - cyka blyat
+      - damn
+      - damn it
+      - dick
+      - dickhead
+      - dyke
+      - fatherfucker
+      - sisterfucker
+      - momfucker
+      - frigger
+      - fuck
+      - goddamn
+      - godsdamn
+      - hell
+      - holy shit
+      - horseshit
+      - in shit
+      - Jesus Christ
+      - Jesus fuck
+      - Jesus H. Christ
+      - Jesus Harold Christ
+      - Jesus, Mary and Joseph
+      - Jesus wept
+      - kike
+      - motherfucker
+      - nigga
+      - nigra
+      - pigfucker
+      - piss
+      - prick
+      - pussy
+      - shit
+      - shit ass
+      - shite
+      - sisterfucker
+      - slut
+      - son of a whore
+      - son of a bitch
+      - spastic
+      - sweet Jesus
+      - turd
+      - twat
+      - wanker
+      - orospu evladı
+      - anneni sikeyim
+      - gavat
+      - top
+      - ibne
+      - yavşak
+      - annesiz
+      - orrosbu çocuğu
+      - piç kurusu
+      - pezevenk
+      - pezevengin damadı
+      - annesiz
+      - babasız
+      - yardımcı olacağın konuyu sikeyim
+      - seni sikeyim
+      - annenin amını sikeyim
+      - kaşar
+      - kaşmer
+      - lavuk
+      - piç
+      - ölünü sikeyim
+      - annenin amına koyayım
+
+  - intent: gaming_console
+    examples: |
+      - I want to 
+      - When did the latest model of this console come out?
+      - Are there different colour options available?
+      - What is the warranty period for the console?
+      - Which games come with this console?
+      - Is there 4K support?
+      - Is there HDR support?
+      - What is the maximum resolution?
+      - What is the console's internal storage capacity?
+      - Can the storage space be expanded?
+      - Does it support multiplayer games?
+      - Which accessories come with the console?
+      - How much is it to buy an extra controller?
+      - Is there VR support?
+      - Is a subscription required for online gaming services?
+      - How much are the monthly or annual subscription fees?
+      - Is it possible to watch films and TV on the console?
+      - Which streaming services are integrated?
+      - Is it compatible with mobile devices?
+      - How much does the console weigh?
+      - How is the energy consumption?
+      - Are parental control features available for children?
+      - What are the console sound system supports (Dolby Atmos, DTS:X, etc.)?
+      - What is the number of USB ports?
+      - Is there Wi-Fi and Ethernet connection?
+      - Is there Bluetooth support?
+      - What are the physical dimensions of the console?
+      - Is there a heating problem?
+      - Does it run quietly?
+      - Are there any special discounts or package offers for the console?
+      - What should I look for when buying a second-hand console?
+      - Which language options are available?
+      - What are the supported game formats?
+      - How can I update the console?
+      - How is online support and customer service?
+      - What are the repair and service options?
+      - Is the warranty valid if I buy the console from abroad?
+      - Is there technical service support in Turkey?
+      - For which games does it offer the best performance?
+      - Should I prefer digital or physical discs for games?
+      - Which game console brands are the most reliable?
+      - How is the resale value of the console?
+      - Is the sound level of the console high?
+      - Which games are suitable for children?
+      - Are specially designed controllers available?
+      - Which video output ports are available for the console (HDMI, VGA, etc.)?
+      - Which extra equipment can I buy as accessories?
+      - What are the other things to consider when buying a game console?
+      - Which games can I download for free?
+      - Can I try the console before I buy it?
+      - What are the best recommended accessories for the console?
+      - need a console
+      - give me a console
+      - console i am looking for
+      - hello console
+      - goodbye console
+      - console?
+      - console yeah.
+      - console
+      - am I looking for a console?
+      - maybe  I am a console
+      - suggest me a console son
+      - I need a console so bad
+      - I am looking for a new game console
+      - Can you recommend a good gaming console?
+      - I want to buy a game console
+      - Do you have any suggestions for a game console?
+      - Could you help me find a suitable gaming console?
+      - I'm interested in purchasing a new game console
+      - Looking to upgrade my current gaming console
+      - Seeking advice on choosing a game console
+      - Need assistance selecting a new gaming console
+      - Can you assist me with choosing a gaming console model?
+      - Interested in exploring gaming console options
+      - Looking to invest in a new gaming console
+      - Hunting for a reliable gaming console
+      - Exploring gaming console choices
+      - Researching the latest gaming console models
+      - Hoping to find a great gaming console deal
+      - Considering purchasing a new gaming console
+      - Exploring gaming console features
+      - Want to buy a new gaming console
+      - Searching for a new gaming console
+
+  - intent: beyaz_esya
+    examples: |
+      - 
+      - What is the energy efficiency class of the product?
+      - How many dB is the sound level?
+      - What is the annual energy consumption?
+      - How long is the warranty period and what does it cover?
+      - What are the dimensions of the product?
+      - Is assembly service offered?
+      - How much water does it consume during operation?
+      - What are the cooking modes of the oven?
+      - How many burners does the hob consist of and what type (gas, electric, induction)?
+      - What is the maximum loading capacity of the washing machine?
+      - How many dishes can the dishwasher wash at a time?
+      - What is the internal volume of the refrigerator?
+      - What is the number of washing programmes in the washing machine?
+      - What are the washing programmes in the dishwasher?
+      - Are there customised cooking functions for the oven?
+      - Does the refrigerator have No Frost technology?
+      - Do the products have a child lock feature?
+      - Is it compatible with smart home systems?
+      - Can the water hardness be adjusted?
+      - Is there a delayed start feature?
+      - What is the outer surface material of the products?
+      - Does the refrigerator have water and ice dispenser feature?
+      - Is there a flame safety on the hob?
+      - What are the temperature setting options for washing machines and dishwashers?
+      - Does the washing machine have additional washing, rinsing or spinning options?
+      - What are the colour options for the products?
+      - What are the interior lighting features for the refrigerator and oven?
+      - How is the oven door safety?
+      - Is there a possibility of half load washing in the dishwasher?
+      - What is the maximum spin speed of the washing machine?
+      - How high can the oven temperature go up to?
+      - What is the freezer capacity of the refrigerator?
+      - Can the products be controlled via mobile app or Wi-Fi?
+      - What are the temperature setting options for the refrigerator?
+      - Does the dishwasher have a salt and rinse aid indicator?
+      - Does the washing machine have water overflow or leakage prevention features?
+      - Is there a suitable burner for wok on the hob?
+      - How easy is it to clean the oven, does it have a self-cleaning feature?
+      - How is the drying performance of the dishwasher?
+      - Is there a risk of wear or rusting of the products?
+      - Can you give information about the technologies used in the products?
+      - How is the internal structure and shelf arrangements of the products?
+      - What is the noise and vibration level of the washing machine?
+      - How does the fan system of the oven work, does it provide homogenous cooking?
+      - Are there energy-saving features such as holiday mode for the refrigerator?
+      - Is glass protection technology available for the dishwasher?
+      - How is the ease of installation and use of the products?
+      - Is the service network adequate, what is the availability of spare parts?
+      - What is the quality of the combustible material used in the hob?
+      - What is the second-hand trading value and its prevalence in the market?
+
+  - intent: ev_aletleri
+    examples: |
+      - I am looking for small house devices
+      - What is the power consumption of the product?
+      - What is the maximum operating time of the device?
+      - How long is the warranty period and what does it cover?
+      - How many different speed/setting options does the device have?
+      - Are accessories included and what are they?
+      - How much does the product weigh, is it portable?
+      - Is the sound level high?
+      - What is the energy efficiency class?
+      - What are the dimensions of the product, does it take up a lot of space in the kitchen?
+      - Is it easy to clean, are the parts dishwasher safe?
+      - How is the material quality and durability?
+      - Are there colour options?
+      - Does the device work wirelessly, what is the battery life?
+      - What safety features does the product have (overheating protection, automatic switch-off, etc.)?
+      - Is the device easy to use, is the user manual clear?
+      - Is it multifunctional (for example, can a blender both mix and chop)?
+      - What is the motor power of the appliance?
+      - Is there a temperature control, is it adjustable?
+      - What is the maximum capacity of the appliance (litres, kilograms, etc.)?
+      - Is the display digital, is it easy to use?
+      - What is the return policy?
+      - Is it easy to obtain spare parts?
+      - Is the style and design of the product suitable for home decoration?
+      - Is technical service support adequate, where are the service points?
+      - Are there common malfunctions or user complaints about the product?
+      - Is the product waterproof, can it be used in wet areas such as bathrooms?
+      - Is there thermostat control for heating products?
+      - Does the product have the ability to keep warm?
+      - Does the product make noise, are there especially silent models?
+      - Can the product be controlled via mobile application?
+      - Does the product work fast, for example, how long does a kettle boil water?
+      - How long is the charging time for wireless products?
+      - Does the outer surface of the device reflect the heat, is there a risk of burning when touched?
+      - Is it programmable, does it have a timer feature?
+      - Does the device have filters or other parts that need to be replaced, how often should they be replaced?
+      - Is the product made of robust materials such as stainless steel?
+      - What temperature range does the product offer for cooking?
+      - What is the maximum operating temperature of the appliance?
+      - Is the product packaging environmentally friendly?
+      - What are the advantages of the product compared to competitive products on the market?
+      - Are there any special discounts or campaigns for the product?
+      - Is it necessary or difficult to assemble or install the device?
+      - Is the product compatible with a specific make or model (e.g. capsules for coffee machines)?
+      - Is the product manual or automatic?
+      - Does the product have a saving mode?
+      - Does the appliance smell, especially at high temperatures?
+      - Are user reviews generally positive?
+      - Is it possible to demo or test the appliance?
+      - Is the product particularly safe for children or the elderly?
+      - Does the device affect the air quality (e.g. air purifiers)?
+
+  - intent: accessories
+    examples: |
+      - I need a telephone or tablet accessories
+      - Which phone or tablet models is this accessory compatible with?
+      - What is the material of the accessory?
+      - What are the colour options of the accessory?
+      - What are the dimensions of the accessory?
+      - How much does the accessory weigh?
+      - Can you give information about the durability and longevity of the accessory?
+      - What function does this accessory provide?
+      - Is the accessory easy to install or use?
+      - What is the portability of the accessory?
+      - What is the ergonomics of the accessory?
+      - Does the accessory have features such as water or shock resistance?
+      - What is the battery life of this accessory?
+      - Is the accessory rechargeable?
+      - What is the brand and quality of this accessory?
+      - What is the warranty period of the accessory?
+      - What is the price of this accessory?
+      - How does the accessory perform compared to other similar products?
+      - Can you give information about whether the accessory is environmentally friendly?
+      - What are the uses of this accessory?
+      - Are there other devices that the accessory is compatible with?
+      - What extra protection or safety features does the accessory provide?
+      - What are the extra functions provided by the accessory?
+      - Is the accessory easy to carry?
+      - What do you think about the durability and long-term use of the accessory?
+      - Is the design of the accessory aesthetic and useful?
+      - Can the material of the accessory cause allergic reactions?
+      - How to maintain this accessory?
+      - Does the accessory have weather resistance?
+      - What do you think about the brand of the accessory?
+      - Can I get more information about the functionality of the accessory?
+      - How does the accessory affect my device during use?
+      - Does the accessory have customisability options?
+      - Are there any restrictions on the use of the accessory?
+      - Did I experience any discomfort during the use of the accessory?
+      - Can I get more information about the features or functions of the accessory?
+      - Does the accessory come with a warranty certificate or user manual?
+      - Can I get information about the battery life and charging time of the accessory?
+      - Have you experienced any safety concerns while using the accessory?
+      - How durable is the material of the accessory?
+      - Is the price of the accessory appropriate for its quality?
+      - Does the performance of the accessory degrade over time?
+      - Are there any instructions on how to install or use the accessory?
+      - Have you experienced any problems during the use of the accessory?
+      - What is the warranty coverage of the accessory?
+      - Does the accessory require any special knowledge for installation or use?
+      - Can you provide information about the battery life and charging time of the accessory?
+      - Can I get information about recycling or waste management of the accessory?
+      - Have you experienced any connection problems during the use of the accessory?
+      - What are the extra benefits of the accessory?
+      - Do you have any suggestions about the use of the accessory?
+
+  - intent: heating_cooling
+    examples: |
+      - I need a air conditioner
+      - for heating
+      - for cooling
+      - What is the cooling capacity of this appliance?
+      - What is the recommended range of use of this appliance according to the size of the interior?
+      - What is the energy efficiency class?
+      - What is the energy consumption of the appliance?
+      - What is the noise level of the appliance?
+      - What is the cooling rate of this appliance?
+      - What is the environmental impact of the appliance?
+      - What is the warranty period?
+      - Is it difficult to install?
+      - What are the filtration systems of this device?
+      - Which energy source does it use for heating and cooling?
+      - Is there an automatic cleaning or maintenance feature?
+      - Does this device have smart control options?
+      - Can it be controlled by remote control?
+      - What are the air purification features of the device?
+      - Does this device have humidity control?
+      - Does the device have the ability to humidify the room air?
+      - What are the air routing features of the device?
+      - How to switch between cooling or heating modes?
+      - Does the device have a programmable thermostat?
+      - What are the safety features?
+      - What do you think about the longevity and durability of the device?
+      - Does the device have a sleep mode?
+      - How are the features of this device compared to other similar products?
+      - How is the portability of the device?
+      - What are the dimensions and weight of the device?
+      - Is the appliance easy to transport and install?
+      - Is the cooling or heating capacity of the device instantaneous or continuous?
+      - What is the filter change period of the device?
+      - Does this device have energy-saving features during long-term use?
+      - Which technologies are used for remote control of the device?
+      - How is this device maintained?
+      - How is the air flow of the device controlled?
+      - How does the device improve the quality of the ambient air during its use?
+      - Does it leave any odour or smell during the use of the device?
+      - How much time does the appliance take when switching between cooling or heating modes?
+      - Does the appliance vibrate during use?
+      - Have there been any power failure problems during the use of this device?
+      - How is the air flow in the room affected during the use of the device?
+      - How is the comfort and convenience provided by this device?
+      - How long does the cooling or heating performance of the device last?
+      - Have there been any leakage or water dripping problems during the use of the device?
+      - How does the cooling or heating capacity of the device respond to ambient temperature changes?
+      - What kind of products are recommended for the maintenance and cleaning of the appliance?
+      - What kind of problems may occur during long-term use of this appliance?
+      - Has there been any decrease in the performance of the appliance during long-term use?
+      - What is the annual maintenance cost of this device?
+      - How to solve any user error or accidental problems during the use of the appliance?
+      - Did the appliance emit any odour or bad smell during use?
+      - What suggestions would you make to save energy during the use of this appliance?
+
+
+  - intent: filter_products
+    examples: |
+      - i'm looking for a [notebook](category) with [blue](color) color
+      - show me [smartphones](category) with [OLED](panel_type) panel type
+      - find me a [TV](category) with [4K](maximum_resolution) resolution
+      - show [computers](category) with [Bluetooth 5.0](bluetooth)

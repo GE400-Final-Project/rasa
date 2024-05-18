@@ -1,0 +1,42 @@
+[
+  {
+    "text": "hello, how are you?",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.808463454246521
+    }
+  },
+  {
+    "text": "what's up?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6515432000160217
+    }
+  },
+  {
+    "text": "what's up girl?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5467853546142578
+    }
+  },
+  {
+    "text": "What's up",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6396083235740662
+    }
+  },
+  {
+    "text": "what's up",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6515432000160217
+    }
+  }
+]

@@ -1,0 +1,119 @@
+version: "3.1"
+nlu:
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - good_feedback
+  - bad_feedback
+  - bot_challenge
+  - apology
+  - tv
+  - phone
+  - express_gratitude
+  - noMoreHelp
+  - additionalHelp
+  - faq
+  - chitchat
+  - outofscope
+  - bad_words
+  - laptop
+  - gaming_console
+  - printer
+  - desktop_computer
+  - beyaz_esya
+  - tablet
+  - accessories
+  - heating_cooling
+  - ev_aletleri
+  - filter_products
+
+
+
+entities:
+  - category
+  - color
+
+
+slots:
+  category:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: category
+
+  color:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: color
+  
+
+
+actions:
+  - action_extract_entities
+  - action_section_start
+
+#entities:
+# -categories
+
+responses:
+  utter_greet:
+    - text: "Hey! I am an AI chatbot made by EKHAS. How may I assist you?"
+    - text: "Hello! I'm an AI chatbot developed by EKHAS. How can I be of assistance to you?"
+    - text: "Hi there! I'm a chatbot created by EKHAS. What can I help you with today?"
+    - text: "Greetings! I'm an AI chatbot made by EKHAS. How may I be of service to you?"
+    - text: "Welcome! I'm a chatbot powered by EKHAS. How can I assist you?"
+    - text: "Hi! I'm an AI chatbot from EKHAS. What do you need help with?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you? If you need extra help with our electronics please let me know."
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am an AI bot, powered by E-KHAS."
+
+  utter_apology:
+    - text: "I'm sorry, do you need help with anything else? If you do let me know."
+
+  utter_reccomend_phone:
+    - text: "I would reccomend you to see your phone section. https://khas.mobitek.org/en/mobile-phones/"
+
+  utter_reccomend_tv:
+    - text: "I want to reccomend you to check out our TV section for many options."
+
+  utter_answerfaq:
+    - text: "EKHAS is an e commerce website powered with an ai. This website is operating by 4 ungraduated computer engineering students. For frequently asked questions you may visit our FAQ section."
+
+  utter_express_gratitude:
+    - text: "You're welcome. Do you have any other questions?"
+
+  utter_outofscope:
+    - text: "Your question is out of our scope. I am allowed to answer your questions in this website's context."
+
+  utter_badwords:
+    - text: "Please use respectful language when speaking to me. I will not tolerate blasphemy."
+
+  utter_desktop:
+    - text: "If you are looking for a desktop pc i suggest you to see our section of desktop pc."
+
+  utter_thank:
+    - text: "Glad I could help."
+
+  #utter_filter_products:
+  #  - text: "Sure, here are the filtered products: https://khas.mobitek.org/{category}/?color={color}" #deneme amaçlı, linkin tamamı sonradan eklenecek
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
