@@ -19,7 +19,7 @@ intents:
   - chitchat
   - outofscope
   - bad_words
-  - laptop
+  - laptop_notebook
   - gaming_console
   - printer
   - desktop_computer
@@ -28,33 +28,47 @@ intents:
   - accessories
   - heating_cooling
   - ev_aletleri
-  - filter_products
-
-
+  - search_by_feature
+  - category_product_search
+  - search_by_product
+  - search_by_price
 
 entities:
   - category
-  - color
+  - colour
+  - capacity
+  - max_dpi
+  - product_namer
+  - feature
 
 
-slots:
-  category:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: category
+# colour:
+#   type: text
+#   mappings:
+#   - type: from_entity
+#     entity: colour
 
-  color:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: color
-  
+# capacity:
+#   type: text
+#   mappings:
+#   - type: from_entity
+#     entity: capacity
 
+# max_dpi:
+#   type: text
+#   mappings:
+#   - type: from_entity
+#     entity: max_dpi
 
 actions:
   - action_extract_entities
   - action_section_start
+  - action_product_price_Search
+  - action_search_by_product
+  - action_category_products_search
+  - action_search_by_feature
+  - action_search_by_name
+
 
 #entities:
 # -categories
@@ -67,25 +81,49 @@ responses:
     - text: "Greetings! I'm an AI chatbot made by EKHAS. How may I be of service to you?"
     - text: "Welcome! I'm a chatbot powered by EKHAS. How can I assist you?"
     - text: "Hi! I'm an AI chatbot from EKHAS. What do you need help with?"
+    - text: "Hello! How can I assist you today?"
 
-  utter_cheer_up:
-    - text: "Here is something to cheer you up:"
-      image: "https://i.imgur.com/nGF1K8f.jpg"
+  # utter_cheer_up:
+  #   - text: "Here is something to cheer you up:"
+  #     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
     - text: "Did that help you? If you need extra help with our electronics please let me know."
+    - text: "Did that help? If you need further assistance with our electronics, please let me know."
+    - text: "Was that helpful for you? If you need any additional help with our electronics, please inform me."
+    - text: "Did you find that useful? If you require more help with our electronics, feel free to let me know."
+    - text: "Did that assist you? If you need extra support with our electronics, please tell me."
+    - text: "Was that beneficial for you? If you need further help with our electronics, don't hesitate to let me know."
 
   utter_happy:
     - text: "Great, carry on!"
 
   utter_goodbye:
-    - text: "Bye"
+    - text: "Bye."
+    - text: "Goodbye."
+    - text: "Take care."
+    - text: "See you soon."
+    - text: "Until next time."
+    - text: "Have a good day."
+    - text: "Goodbye!"
 
   utter_iamabot:
     - text: "I am an AI bot, powered by E-KHAS."
+    - text: "I am an AI bot, developed by E-KHAS."
+    - text: "I am an AI assistant, created by E-KHAS."
 
   utter_apology:
     - text: "I'm sorry, do you need help with anything else? If you do let me know."
+    - text: "I apologize, is there anything else you need help with? If so, please let me know."
+    - text: "Sorry about that, do you need any further assistance? If you do, just let me know."
+    - text: "My apologies, is there anything else you require help with? If so, let me know."
+    - text: "I'm sorry, can I assist you with anything else? If you need more help, please inform me."
+    - text: "I apologize, do you need any other assistance? If you do, let me know."
+    - text: "Sorry, is there anything else you need assistance with? If so, please let me know."
+    - text: "I regret any inconvenience, do you need further help? If you do, let me know."
+    - text: "I'm sorry, is there anything else you need? If so, please let me know."
+    - text: "I apologize, do you require any more help? If you do, just let me know."
+    - text: "Sorry, can I help with anything else? If you need more assistance, please let me know."
 
   utter_reccomend_phone:
     - text: "I would reccomend you to see your phone section. https://khas.mobitek.org/en/mobile-phones/"
@@ -94,26 +132,69 @@ responses:
     - text: "I want to reccomend you to check out our TV section for many options."
 
   utter_answerfaq:
-    - text: "EKHAS is an e commerce website powered with an ai. This website is operating by 4 ungraduated computer engineering students. For frequently asked questions you may visit our FAQ section."
+    - text: "EKHAS is an e commerce website powered with an AI. This website is operating by 4 ungraduated computer engineering students. For frequently asked questions you may visit our FAQ section."
+    - text: "EKHAS is an online store enhanced by AI technology, managed by four computer engineering undergraduates. For common inquiries, visit our FAQ page."
+    - text: "EKHAS, an AI-integrated e-commerce site, is run by four undergraduate computer engineering students. You can find answers to common questions in our FAQ section."
+    - text: "EKHAS is an e-commerce platform with AI technology, managed by four computer engineering undergraduates. For FAQs, visit our FAQ section."
 
   utter_express_gratitude:
     - text: "You're welcome. Do you have any other questions?"
+    - text: "You're welcome. Is there anything else you'd like to ask?"
+    - text: "You're welcome. Do you have any further questions?"
+    - text: "You're welcome. Anything else you need to know?"
+    - text: "You're welcome. Any more questions?"
+    - text: "You're welcome. Is there anything else you want to ask?"
+    - text: "You're welcome. Do you need to ask anything else?"
+    - text: "You're welcome. Are there any more questions you have?"
+    - text: "You're welcome. Do you have additional questions?"
+    - text: "You're welcome. Anything else on your mind?"
 
   utter_outofscope:
     - text: "Your question is out of our scope. I am allowed to answer your questions in this website's context."
+    - text: "Your question is beyond what I can assist with. I'm only able to answer questions related to this website."
+    - text: "I'm sorry, but your question is outside my scope. I can only respond to queries within the context of this website."
+    - text: "I cannot help with that question as it is outside my scope. My responses are limited to this website's context."
+    - text: "I'm afraid your question falls outside of my scope. I am programmed to answer queries related to this website only."
+    - text: "I'm sorry, but I can't answer that question as it's out of my scope. I can help with questions about this website."
 
   utter_badwords:
     - text: "Please use respectful language when speaking to me. I will not tolerate blasphemy."
+    - text: "Kindly use respectful language when addressing me. Blasphemy is not tolerated."
+    - text: "Please be respectful in your language when speaking to me. I do not tolerate blasphemy."
+    - text: "Please maintain respectful language when talking to me. Blasphemy will not be accepted."
+    - text: "Please speak respectfully. Blasphemy is not tolerated here."
 
   utter_desktop:
     - text: "If you are looking for a desktop pc i suggest you to see our section of desktop pc."
 
   utter_thank:
     - text: "Glad I could help."
+    - text: "I'm happy I could assist."
+    - text: "Pleased I could be of help."
+    - text: "I'm glad I was able to help."
+    - text: "Happy to be of service."
+    - text: "It's my pleasure to help."
+    - text: "Glad I could be of assistance."
+    - text: "I'm pleased I could support you."
+    - text: "It's great that I could help."
+    - text: "I'm delighted I could assist you."
+    - text: "I'm glad I could be useful."
+
+  utter_chitchat:
+    - text: "I'm doing great, thank you! How can I assist you today?"
+    - text: "I'm functioning perfectly! What can I do for you?"
+    - text: "All systems are operational. How can I help?"
+    - text: "I'm fine, thank you for asking. What do you need assistance with?"
+    - text: "I'm here and ready to help! What can I do for you today?"
+    - text: "I'm good, thanks! How can I be of service?"
+    - text: "Feeling fantastic! How may I assist you?"
+    - text: "I'm doing well, thank you! What do you need?"
+    - text: "Everything's running smoothly. How can I assist you?"
+    - text: "I'm great, thanks! How can I help you today?"
 
   #utter_filter_products:
   #  - text: "Sure, here are the filtered products: https://khas.mobitek.org/{category}/?color={color}" #deneme amaçlı, linkin tamamı sonradan eklenecek
 
 session_config:
   session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  carry_over_slots_to_new_session: false

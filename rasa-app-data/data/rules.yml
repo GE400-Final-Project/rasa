@@ -35,3 +35,35 @@ rules:
     steps:
       - intent: bad_words
       - action: utter_badwords
+
+  - rule: answer (how are you) from bot 
+    steps:
+      - intent: chitchat
+      - action: utter_chitchat
+      - action: utter_did_that_help
+
+  - rule: search_by_feature
+    steps:
+      - intent: search_by_feature
+      - action: action_search_by_feature
+
+
+  - rule: search_by_category
+    steps:
+      - intent: category_product_search
+      - action: action_category_products_search
+
+
+  - rule: search_by_product
+    steps:
+      - intent: search_by_product
+      - action: action_search_by_product
+
+
+  - rule: search_by_price
+    steps:
+      - intent: search_by_price
+      - action: action_product_price_Search
+
+
+      
